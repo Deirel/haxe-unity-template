@@ -1,0 +1,14 @@
+-cp src
+-cp "C:\Users\Tom\Documents\Projects\haxe-unity\src"
+
+-main Main
+
+-cs cs
+
+-D analyzer-optimize
+-D no-compilation
+
+--macro include("scripts")
+--macro addGlobalMetadata("scripts", ":nativeGen")
+
+--next copy.hxml

@@ -1,0 +1,11 @@
+-cp src-build
+
+-lib haxe-files
+
+-D eval
+
+-D unity-sources-path=../Assets/Scripts
+-D haxe-sources-path=cs/src
+-D exclude-class=Main
+
+--macro PostBuild.task()
