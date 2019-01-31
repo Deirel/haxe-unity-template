@@ -8,7 +8,7 @@
 -D analyzer-optimize
 -D no-compilation
 
+--macro addGlobalMetadata("scripts", "G:nativeGen")
 --macro include("scripts")
---macro addGlobalMetadata("scripts", ":nativeGen")
 
 --next copy.hxml
